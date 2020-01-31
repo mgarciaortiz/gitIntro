@@ -75,6 +75,4 @@ As a final step, you are going to make a request to the originator of the repo y
 
 - With your browser pointing to your forked repo on GitHub, click the 'New Pull Request' button and give the PR a title such as “Add my bio details” and in the comment section add a rationale for your request, for example "I'd like to add my details to your repo so you can see my programming interests".
 
-- Click the "Create Pull Request" button. This will send a message to the author of the repo you forked with the details of the changes you are requesting. It is now up to them to accept or reject your request!
-
-- If a colleague completing this exercise has forked your original repo (hopefully they have), you will receive a notification from GitHub that a PR has been made. If you are happy with their addition (hopefully you will be), accept their PR. You should now have a repo jointly authored by you and any other colleagues who have forked your repo and submitted a PR to you.
+- Click the “Create Pull Request” button. This will send a message to the author of the repo you forked with the details of the changes you are requesting. It is now up to them to accept or reject your request. If they accept it, you will both now have a copy of a jointly authored repo!
