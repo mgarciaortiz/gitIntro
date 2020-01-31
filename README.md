@@ -32,23 +32,18 @@ Some useful links:
 
   Once installed, open a new command prompt/terminal/shell and check `git --help` works as expected.
 
-### 2. Creating and editing your own repo
 
-- Log in to GitHub and create a new public repo called `gitIntro`. Select the options to include a README file and choose an MIT licence (see [A guide to licences](https://help.github.com/en/articles/licensing-a-repository) for more on differences between licences).
-
-- Still via the GitHub pages, edit your newly created README file (look for the pencil icon) to provide a welcoming message. _Remember, everything you edit/add here is public_.
-
-### 3. Making a fork from someone else's repo
+### 2. Making a fork from someone else's repo
 
 _This activity works best if you are completing it with someone else in order to see how to work together on a shared project. But if this is not practical, you can use this repo as the one you will fork._
 
-- Open a new web page and open up one of your colleague's newly created repos (or this one). It should have the form `github.com/XXX/gitIntro` where `XXX` is their GitHub account name.
+- Open a new web page and open up a repo to fork (e.g. this one or a colleague who is following the same tutorial). This and other GitHub repos have the form `github.com/XXX/YYY` where `XXX` is the repo owner's GitHub account name and `YYY` is the name of the repo. This one is called [github.com/jwoLondon/gitIntro](https://github.com/jwoLondon/gitIntro)
 
-- _Fork_ a copy of their repo by clicking the 'fork' link. This will create a copy of their repo in your own 'remote' GitHub space.
+- _Fork_ a copy of the repo by clicking the 'fork' link. This will create a copy of the repo in your own 'remote' GitHub space.
 
 - Point your browser to this newly forked copy in your own GitHub space and click the green `Clone or download` button. Copy the URL provided, which will be something like _git<span>@github</span>.com:myAccountName/gitIntro.git_.
 
-### 4. Working with a local copy of a remote repo
+### 3. Working with a local copy of a remote repo
 
 - Open a command prompt/terminal/shell and `cd` to a place where you would like to store a local copy of the remote repo.
 
@@ -56,7 +51,7 @@ _This activity works best if you are completing it with someone else in order to
 
 - In your favourite editor create a new file called `myName.md` where _myName_ is your name without any spaces (e.g. `JoWood.md`). In this file, add some simple biographical details (that you are happy to be made public) and then save it.
 
-### 5. Pushing local changes back to a remote repo
+### 4. Pushing local changes back to a remote repo
 
 - From the command line, ensure you are in the folder containing your local copy of the forked repo and then follow these three steps:
 
@@ -74,7 +69,7 @@ _This activity works best if you are completing it with someone else in order to
 
   If you point a browser to your repo on GitHub and refresh the page, you should see your newly created file now listed as part of the repo.
 
-### 6. Making a Pull Request (PR)
+### 5. Making a Pull Request (PR)
 
 As a final step, you are going to make a request to the originator of the repo you forked asking them to incorporate the modifications you made to your version of it, back into their original version (If you have forked this repo, I will most likely reject PRs, but please feel free to make one in order to practice).
 
