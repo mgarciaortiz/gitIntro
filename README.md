@@ -51,7 +51,15 @@ _This activity works best if you are completing it with someone else in order to
 
 - In your favourite editor create a new file called `myName.md` where _myName_ is your name without any spaces (e.g. `JoWood.md`). In this file, add some simple biographical details (that you are happy to be made public) and then save it.
 
-### 4. Pushing local changes back to a remote repo
+### 4. Setting your identity
+
+- Before you can commit and push files with git you will need to configure git with your identity. This should only be required once as the settings will be stored by git on your computer. From the command line, type:
+
+  `git config --global user.email "me@myEmail.com"` (substituting your own email address)
+  
+  `git config --global user.name "my name"` (substituting your own name)
+
+### 5. Pushing local changes back to a remote repo
 
 - From the command line, ensure you are in the folder containing your local copy of the forked repo and then follow these three steps:
 
@@ -69,7 +77,7 @@ _This activity works best if you are completing it with someone else in order to
 
   If you point a browser to your repo on GitHub and refresh the page, you should see your newly created file now listed as part of the repo.
 
-### 5. Making a Pull Request (PR)
+### 6. Making a Pull Request (PR)
 
 As a final step, you are going to make a request to the originator of the repo you forked asking them to incorporate the modifications you made to your version of it, back into their original version (If you have forked this repo, I will most likely reject PRs, but please feel free to make one in order to practice).
 
